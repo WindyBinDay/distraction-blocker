@@ -1,0 +1,1 @@
+PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& {Start-Process PowerShell -ArgumentList '-WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -File ""%cd%\script.ps1""' -Verb RunAs}"
